@@ -12,6 +12,7 @@ public class Flock : MonoBehaviour
     [Range(10, 50)]
     public int startingCount = 20;
     const float AgentDensity = 0.08f;
+    public float spawnSize;
 
     [Range(1f, 100f)]
     public float driveFactor = 10f;
@@ -38,7 +39,7 @@ public class Flock : MonoBehaviour
         {
             FlockAgent newAgent = Instantiate(
                 agentPrefab,
-                Random.insideUnitSphere * startingCount * AgentDensity,
+                Random.insideUnitSphere * startingCount * AgentDensity * spawnSize,
                 Quaternion.Euler(Vector3.up * Random.Range(0f, 360f)),
                 transform
                 );
@@ -50,6 +51,31 @@ public class Flock : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        foreach(FlockAgent agent in agents)
+        {
+            List<Transform> context = GetNearbyObjects(agent);
+            Vector3 move = behavior.CalculateMove(agent, context, this);
+            move *= driveFactor;
+            if (move.sqrMagnitude > squareMaxSpeed)
+            {
+                move = move.normalized * maxSpeed;
+            }
+            agent.Move(move);
+        }
     }
+
+    List<Transform> GetNearbyObjects(FlockAgent agent)
+    {
+        List<Transform> context = new List<Transform>();
+        Collider[] contextColliders = Physics.OverlapSphere(agent.transform.position, neighborRad);
+        foreach(Collider c in contextColliders)
+        {
+            if ( c != agent.AgentCollider)
+            {
+                context.Add(c.transform);
+            }
+        }
+        return context;
+    }
+
 }
