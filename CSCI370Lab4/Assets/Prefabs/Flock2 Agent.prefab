@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3773222026861128608}
   m_Layer: 0
   m_Name: Flock2 Agent
-  m_TagString: Untagged
+  m_TagString: Fish2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,6 +159,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4b7687887bed2c84ba92297f966f3008, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4b7687887bed2c84ba92297f966f3008, type: 3}
+      propertyPath: m_TagString
+      value: Fish2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b7687887bed2c84ba92297f966f3008, type: 3}
