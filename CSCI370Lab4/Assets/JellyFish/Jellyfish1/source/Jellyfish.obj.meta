@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: polySurface1_polySurface1Mat
-    second: {fileID: 2100000, guid: c0401096c18ffa3438dba7982bde3cb9, type: 2}
+    second: {fileID: 2100000, guid: 3e9755f8ae869f843913cd5ebdfbcff3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: polySurface2_polySurface2Mat
-    second: {fileID: 2100000, guid: f1c6edad3e7fbaa4a864d5ca7ad5bcfe, type: 2}
+    second: {fileID: 2100000, guid: 128559c525a80bb47bf001aed0648a21, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
