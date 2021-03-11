@@ -7,11 +7,13 @@ public class ObjectGlow : MonoBehaviour
     public Material mat;
     SkinnedMeshRenderer rend;
     Material[] mats;
+    ParticleSystem[] ps;
 
     // Start is called before the first frame update
     void Start()
     {
         rend = GetComponent<SkinnedMeshRenderer>();
+        ps = gameObject.GetComponentsInChildren<ParticleSystem>();
         mats = rend.materials;
     }
 
@@ -31,6 +33,7 @@ public class ObjectGlow : MonoBehaviour
             }
 
             rend.materials = mats;
+            ps[0].Play();
         }
     }
 

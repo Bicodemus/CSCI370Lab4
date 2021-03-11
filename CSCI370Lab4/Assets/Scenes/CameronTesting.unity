@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 829735078}
   m_Layer: 8
   m_Name: Obstacle (4)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -931,6 +931,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1403328603120750698, guid: 29e3aa85f37fa0345a77fed648991466, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207371808368125793, guid: 29e3aa85f37fa0345a77fed648991466, type: 3}
       propertyPath: m_UpdateWhenOffscreen
       value: 1
@@ -983,7 +987,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flock1 Agent
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3148476901045602144, guid: 29e3aa85f37fa0345a77fed648991466, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 29e3aa85f37fa0345a77fed648991466, type: 3}
 --- !u!1 &1902647145
 GameObject:
