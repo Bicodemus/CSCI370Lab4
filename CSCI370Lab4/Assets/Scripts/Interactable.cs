@@ -22,7 +22,7 @@ public class Interactable : MonoBehaviour
         {
             Debug.Log("Player Hit");
             GameManager.Instance.interactionCount--;
-            triggerBox.size = new Vector3(0, 0, 0);
+            triggerBox.isTrigger = false;
         }
     }
     private void OnCollisionEnter(Collision collision)

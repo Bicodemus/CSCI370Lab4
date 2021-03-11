@@ -655,6 +655,7 @@ GameObject:
   - component: {fileID: 1207923546}
   - component: {fileID: 1207923545}
   - component: {fileID: 1207923548}
+  - component: {fileID: 1207923549}
   m_Layer: 0
   m_Name: FirstPersonPlayer
   m_TagString: Player
@@ -675,7 +676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1207923546}
-  speed: 5
+  speed: 10
 --- !u!143 &1207923546
 CharacterController:
   m_ObjectHideFlags: 0
@@ -724,6 +725,18 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1207923549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207923544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e45790d15bbfba4d93ef1becb30ab7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1301226815
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +835,7 @@ GameObject:
   - component: {fileID: 1475217521}
   - component: {fileID: 1475217526}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Blue Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -837,7 +850,7 @@ BoxCollider:
   m_GameObject: {fileID: 1475217520}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1168,6 +1181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionCount: 3
+  sceneToLoad: 0
 --- !u!4 &1812298064
 Transform:
   m_ObjectHideFlags: 0
