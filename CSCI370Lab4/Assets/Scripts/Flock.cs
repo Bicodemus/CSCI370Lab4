@@ -21,7 +21,7 @@ public class Flock : MonoBehaviour
     [Range(1f, 10f)]
     public float neighborRad = 1.5f;
     [Range(0f, 1f)]
-    public float avoidanceRadMultiplier = 0.5f;
+    public float avoidanceRadMultiplier = 1f;
 
     float squareMaxSpeed;
     float squareNeighborRad;
