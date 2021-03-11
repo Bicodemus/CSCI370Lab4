@@ -23,11 +23,14 @@ public class ObjectGlow : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Enter");
-        for (int i = 0; i < 3; i++)
+        if (other.gameObject.tag == "Player")
         {
-            mats[i] = mat;
-            Debug.Log("Material: " + mats[i]);
+            for (int i = 0; i < rend.materials.Length; i++)
+            {
+                mats[i] = mat;
+            }
+
+            rend.materials = mats;
         }
     }
 
