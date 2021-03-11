@@ -71,7 +71,7 @@ public class Flock : MonoBehaviour
         Collider[] contextColliders = Physics.OverlapSphere(agent.transform.position, neighborRad);
         foreach(Collider c in contextColliders)
         {
-            if ( c != agent.AgentCollider && c.tag == agent.tag)
+            if ( c != agent.AgentCollider)
             {
                 context.Add(c.transform);
             }
