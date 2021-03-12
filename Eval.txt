@@ -38,3 +38,5 @@ Assets:
         https://www.youtube.com/watch?v=4HpC--2iowE&ab_channel=Brackeys
     Low-Poly Fish:
         https://quaternius.itch.io/lowpoly-animated-fish
+    Music:
+        https://onemansymphony.bandcamp.com/releases
