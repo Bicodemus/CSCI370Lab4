@@ -1,0 +1,12 @@
+The intent of our game was to create a 3d environment for a jellyfish to swim around and interact in. The jellyfish can move around the world, and can interact with fish causing them to glow.
+Once enough fish have been lit up, the jellyfish must find the starfish to travel to the next level. There isnt too much difficulty, this is more about exploring the world. We designed the worlds
+so that they could act as aquariums. There are four walls of glass, each with different types of coral and sad so that it feels like the ocean. There is then a stary night skybox to give the
+scenes a darker feel to them.
+
+
+
+Mitchell:
+    This was the first time I have ever worked in a 3d environment, and it was challenging. It was hard for me to understand the worldspace, it just took a lot of time working to figure out
+    how to orient myself.
+Morgan:
+Cameron:
