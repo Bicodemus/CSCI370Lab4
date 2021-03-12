@@ -1,7 +1,8 @@
 The intent of our game was to create a 3d environment for a jellyfish to swim around and interact in. The jellyfish can move around the world, and can interact with fish causing them to glow.
 Once enough fish have been lit up, the jellyfish must find the starfish to travel to the next level. There isnt too much difficulty, this is more about exploring the world. We designed the worlds
 so that they could act as aquariums. There are four walls of glass, each with different types of coral and sad so that it feels like the ocean. There is then a stary night skybox to give the
-scenes a darker feel to them.
+scenes a darker feel to them. We wanted to take the opportunity to explore the natural strong suits of a 3D environment, including the pretty amazing and beautiful things we could create
+with limited assets.
 
 
 
@@ -12,7 +13,11 @@ Mitchell:
     I really enjoyed seeing all of the different aspect come together and work as one. In this game, i worked on creating each of the 3 levels, i got the materials and models for the coral, 
     jellyfish, starfish, sand, and the top of the aquarium. I also worked on 3rd person camera movemment as well as the player movement. 
 Morgan:
-Cameron:
+Cameron: 
+    I sure learned a lot during this project. The first thing I learned is that I would love to pursue boids in a different context. That different context being a 2D environment. 3D was certainly
+    complicated! I felt like I jumped into a whole new world while working in 3D, and rarely felt like I was extended the materials I had picked up from previous projects. Plus, I found a comfort
+    zone in pixel art and was suddently plucked away! But that means I learned a lot that I would not have learned if left to my own devices. A type of game I really want to explore creating
+    is a game created in a 3D environment with a 2D "flat" art-style, like the rogue-like Hades. And that game would be built fully in 3D, so I need to keep practicing!
 
 Assets:
     Coral:
@@ -27,3 +32,5 @@ Assets:
         https://assetstore.unity.com/packages/3d/environments/sci-fi/real-stars-skybox-lite-116333
     3rd Person Movement help:
         https://www.youtube.com/watch?v=4HpC--2iowE&ab_channel=Brackeys
+    Low-Poly Fish:
+        https://quaternius.itch.io/lowpoly-animated-fish
