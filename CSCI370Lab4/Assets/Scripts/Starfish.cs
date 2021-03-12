@@ -17,6 +17,10 @@ public class Starfish : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        GameManager.Instance.nextScene();
+        if(GameManager.Instance.interactionCount >= 10)
+        {
+            GameManager.Instance.interactionCount = 0;
+            GameManager.Instance.nextScene();
+        }
     }
 }

@@ -34,6 +34,7 @@ public class ObjectGlow : MonoBehaviour
 
             rend.materials = mats;
             ps[0].Play();
+            GameManager.Instance.interactionCount++;
         }
     }
 
