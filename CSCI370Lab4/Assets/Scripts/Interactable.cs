@@ -18,12 +18,7 @@ public class Interactable : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("Player Hit");
-            GameManager.Instance.interactionCount--;
-            triggerBox.isTrigger = false;
-        }
+        Debug.Log("Hit");
     }
     private void OnCollisionEnter(Collision collision)
     {
