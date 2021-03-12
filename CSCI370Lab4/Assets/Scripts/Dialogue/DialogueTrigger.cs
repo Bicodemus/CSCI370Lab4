@@ -6,13 +6,18 @@ public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
 
-    public void TriggerDialouge()
+    public void TriggerDialogue()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        TriggerDialouge();
+        TriggerDialogue();
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        FindObjectOfType<DialogueManager>().EndDialogue();
     }
 }
