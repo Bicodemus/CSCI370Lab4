@@ -12,7 +12,11 @@ Mitchell:
     spots for some of their maps, so i had to try to find what each map was doing, and where in the material it should go. Although this was a struggle, it was fun for me to work in a 3d environment
     I really enjoyed seeing all of the different aspect come together and work as one. In this game, i worked on creating each of the 3 levels, i got the materials and models for the coral, 
     jellyfish, starfish, sand, and the top of the aquarium. I also worked on 3rd person camera movemment as well as the player movement. 
-Morgan: In this project, much of what I was working with was foreign to me. In previous projects, I had worked almost exclusively with just the scripts and mechanics of the core game, ignoring much of the creation of UI, sound effects, and other front-end components. On this game, creation of these components was my primary focus. Getting out of my comfort zone like this was certainly helpful in forcing me to learn these aspects and implement them effectively. It was effective in demonstrating how much difference comes from these aspects that the player directly interacts with. Polish on these aspects makes a huge difference to how the game feels. Though it was difficult to learn all of this new stuff, it was highly satisfying when everything came together, and looked good while doing it.
+Morgan: In this project, much of what I was working with was foreign to me. In previous projects, I had worked almost exclusively with just the scripts and mechanics of the
+core game, ignoring much of the creation of UI, sound effects, and other front-end components. On this game, creation of these components was my primary focus. Getting out 
+of my comfort zone like this was certainly helpful in forcing me to learn these aspects and implement them effectively. It was effective in demonstrating how much difference
+comes from these aspects that the player directly interacts with. Polish on these aspects makes a huge difference to how the game feels. Though it was difficult to learn all
+of this new stuff, it was highly satisfying when everything came together, and looked good while doing it.
 Cameron: 
     I sure learned a lot during this project. The first thing I learned is that I would love to pursue boids in a different context. That different context being a 2D environment. 3D was certainly
     complicated! I felt like I jumped into a whole new world while working in 3D, and rarely felt like I was extended the materials I had picked up from previous projects. Plus, I found a comfort
