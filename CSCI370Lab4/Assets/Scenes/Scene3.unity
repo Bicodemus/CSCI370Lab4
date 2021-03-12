@@ -1091,7 +1091,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729510285}
-  m_LocalRotation: {x: 0.14034253, y: 0.00000001703609, z: -0.000000002414787, w: 0.99010307}
+  m_LocalRotation: {x: 0.14034253, y: -0.000000017036092, z: 0.000000002414787, w: 0.99010307}
   m_LocalPosition: {x: 0, y: 84.45, z: -80.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1344,7 +1344,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060313867}
-  m_LocalRotation: {x: 0.15832873, y: 0.000000027519283, z: -0.0000000044127533, w: 0.98738647}
+  m_LocalRotation: {x: 0.15832874, y: 0.0000000059064216, z: -9.471027e-10, w: 0.98738647}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1908,7 +1908,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789333727}
-  m_LocalRotation: {x: 0.1403425, y: 0.000000008518043, z: -0.0000000012073931, w: 0.99010307}
+  m_LocalRotation: {x: 0.1403425, y: -0.000000008518047, z: 0.0000000012073937, w: 0.99010307}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2149,6 +2149,7 @@ GameObject:
   - component: {fileID: 2108900630}
   - component: {fileID: 2108900629}
   - component: {fileID: 2108900628}
+  - component: {fileID: 2108900632}
   m_Layer: 0
   m_Name: StarFish
   m_TagString: Untagged
@@ -2164,10 +2165,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2108900627}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 51d4554dcb8e13d4f918cbcf47bb4b80, type: 3}
 --- !u!23 &2108900629
@@ -2233,6 +2234,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2108900632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108900627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1fbdefce657b24d989273e3f8fcb39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2136630422
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,10 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 78097482468a0af45b942383bccdbf1b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MitchellTestScene.unity
     guid: 6d703bef7c426264f95645883f970b0f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CameronTesting.unity
     guid: cdf9e8b2657267845871c7e2b7c90ac6
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: bd2b400f604c231428533ad7c2ea242e
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: 38cf4ed26abc79340ab766916ab004ad
   m_configObjects: {}
