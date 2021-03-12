@@ -9,7 +9,7 @@ public class Flock : MonoBehaviour
     List<FlockAgent> agents = new List<FlockAgent>();
     public FlockBehavior behavior;
 
-    [Range(10, 50)]
+    [Range(1, 50)]
     public int startingCount = 20;
     const float AgentDensity = 0.08f;
     public float spawnSize;
@@ -22,6 +22,9 @@ public class Flock : MonoBehaviour
     public float neighborRad = 1.5f;
     [Range(0f, 1f)]
     public float avoidanceRadMultiplier = 1f;
+
+    [Range(1, 300)]
+    public float centralRad = 25f;
 
     float squareMaxSpeed;
     float squareNeighborRad;
@@ -61,6 +64,10 @@ public class Flock : MonoBehaviour
             {
                 move = move.normalized * maxSpeed;
             }
+            if (Vector3.SqrMagnitude(transform.position - agent.transform.position) > centralRad)
+            {
+                move = (transform.position - agent.transform.position).normalized;
+            }
             agent.Move(move);
         }
     }
@@ -76,6 +83,7 @@ public class Flock : MonoBehaviour
                 context.Add(c.transform);
             }
         }
+        
         return context;
     }
 

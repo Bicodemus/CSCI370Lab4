@@ -77,7 +77,7 @@ public class Boid : MonoBehaviour
         Collider[] contextColliders = Physics.OverlapSphere(transform.position, cohesionRadius);
         foreach (Collider c in contextColliders)
         {
-            if (c != collide && c.tag == "fish1")
+            if (c != collide)
             {
                 size++;
             }
@@ -86,9 +86,10 @@ public class Boid : MonoBehaviour
         int tracker = 0;
         foreach (Collider c in contextColliders)
         {
-            if (c != collide && c.tag == "fish1")
+            if (c != collide)
             {
                 returnArray[tracker] = c;
+                Debug.Log(c);
             }
         }
         return returnArray;

@@ -18,12 +18,15 @@ public class CohesionBehavior : FilteredFlockBehavior
         List<Transform> filteredContext = (filter == null) ? context : filter.Filter(agent, context);
         foreach (Transform item in filteredContext)
         {
+            
             cohesionMove += item.position;
+            
         }
         cohesionMove /= context.Count;
 
         //create offset from agent position
         cohesionMove -= agent.transform.position;
+
         return cohesionMove;
     }
 
