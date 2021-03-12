@@ -7,6 +7,23 @@ scenes a darker feel to them.
 
 Mitchell:
     This was the first time I have ever worked in a 3d environment, and it was challenging. It was hard for me to understand the worldspace, it just took a lot of time working to figure out
-    how to orient myself.
+    how to orient myself. It was also a pain trying to figure out how to create materials with all of the different maps. There were several materials that i had to create that did not have 
+    spots for some of their maps, so i had to try to find what each map was doing, and where in the material it should go. Although this was a struggle, it was fun for me to work in a 3d environment
+    I really enjoyed seeing all of the different aspect come together and work as one. In this game, i worked on creating each of the 3 levels, i got the materials and models for the coral, 
+    jellyfish, starfish, sand, and the top of the aquarium. I also worked on 3rd person camera movemment as well as the player movement. 
 Morgan:
 Cameron:
+
+Assets:
+    Coral:
+        https://sketchfab.com/thehydro.us
+    StarFish:
+        https://sketchfab.com/3d-models/asteroid-starfish-or-seastar-32de6a92ad104e20aaa841c8e3eef93f#download
+    Jellyfish:
+        https://sketchfab.com/3d-models/jellyfish-5719a470e4f94c619bcc4c7a2615e208#download
+    Sand Textures:
+        https://assetstore.unity.com/packages/2d/textures-materials/floors/yughues-free-sand-materials-12964
+    Skybox Textures:
+        https://assetstore.unity.com/packages/3d/environments/sci-fi/real-stars-skybox-lite-116333
+    3rd Person Movement help:
+        https://www.youtube.com/watch?v=4HpC--2iowE&ab_channel=Brackeys
